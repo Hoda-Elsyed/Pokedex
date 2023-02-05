@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap'); 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'); 
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to right , #d4d3dd, #efefbb);
+}
+h1{
+    letter-spacing: 3px;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+.poke-card{
+    background-color: rgb(232, 131, 131);
+    margin: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0px 3px 15px rgba(100,100,100,0.5);
+}
+.img-container{
+    background-color:  rgba(255,255,255,0.6);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.id{
+    background-color: rgba(0,0,0,0.1);
+    padding: 2px 5px;
+    font-size: 70%;
+    margin:1rem auto 0.5rem;
+    width: fit-content;
+    border-radius: 10px;
+}
+.name{
+    text-transform: capitalize;
+    font-size: 120%;
+    letter-spacing: 1px;
+}
+.type{
+    font-size: 65%;
+}
